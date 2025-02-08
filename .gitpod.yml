@@ -1,0 +1,10 @@
+tasks:
+  - init: |
+      curl -fsSL https://ollama.com/install.sh | sh
+      ollama serve&
+      sudo apt install btop -y      
+    command: |
+      
+
+
+
